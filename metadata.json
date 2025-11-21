@@ -1,0 +1,5 @@
+{
+  "name": "Meme Magic",
+  "description": "An AI-powered meme generator. Users can upload an image or select trending templates. The core feature is a 'Magic Caption' button: when clicked, AI analyzes the image context and suggests 5 funny, relevant captions. Users can also use text prompts to edit images using Gemini.",
+  "requestFramePermissions": []
+}
