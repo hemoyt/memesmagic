@@ -24,7 +24,8 @@
     <meta property="og:site_name" content="Meme Magic" />
     <meta property="og:title" content="Meme Magic - AI Powered Meme Generator" />
     <meta property="og:description" content="Generate witty, viral-worthy captions in seconds using advanced AI. Edit memes with text commands and join the fun!" />
-    <meta property="og:image" content="https://picsum.photos/id/88/1200/630" />
+    <!-- Uses a generated Meme image saying 'Meme Magic / AI Generator' -->
+    <meta property="og:image" content="https://api.memegen.link/images/doge/Meme_Magic/AI_Powered_Generator.png" />
     <meta property="og:url" content="https://meme-magic.app" />
     <meta property="og:locale" content="en_US" />
     
@@ -33,7 +34,7 @@
     <meta name="twitter:site" content="@MemeMagicApp" />
     <meta name="twitter:title" content="Meme Magic - Create Memes with AI" />
     <meta name="twitter:description" content="Stop thinking of captions. Let AI do it for you. Create and share memes instantly." />
-    <meta name="twitter:image" content="https://picsum.photos/id/88/1200/630" />
+    <meta name="twitter:image" content="https://api.memegen.link/images/doge/Meme_Magic/AI_Powered_Generator.png" />
 
     <!-- AIO / Structured Data (JSON-LD) for AI Agents & Search Engines -->
     <script type="application/ld+json">
@@ -75,13 +76,15 @@
     </script>
 
     <script src="https://cdn.tailwindcss.com"></script>
-  <script type="importmap">
+<script type="importmap">
 {
   "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1"
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
   }
 }
 </script>
